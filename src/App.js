@@ -1,14 +1,16 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './general/Navbar';
 
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           I like this page so I won't remove it.
-          Some text change.
         </p>
         <a
           className="App-link"
