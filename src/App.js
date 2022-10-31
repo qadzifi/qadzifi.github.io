@@ -8,6 +8,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           I like this page so I won't remove it.
+          Some text change.
         </p>
         <a
           className="App-link"
