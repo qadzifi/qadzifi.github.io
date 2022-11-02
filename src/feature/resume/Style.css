@@ -1,0 +1,92 @@
+ul {
+    --column-count: 3;
+}
+
+* {
+    color: white;
+}
+
+#resume-root {
+    margin: 50px;
+}
+
+#resume-header {
+    margin: 0px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#resume-profile-nick {
+    margin-left: 50px;
+}
+
+#resume-fullname h1 {
+    font-size: 10vh;
+}
+
+#resume-current-title {
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-top-color: white;
+}
+
+#resume-current-title h1 {
+    font-size: 3vh;
+}
+
+#profile-picture {
+    max-width: 20vw;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 10px;
+}
+
+#resume-body {
+    display: flex;
+    flex-direction: row;
+    margin: 80px 40px;
+}
+
+#resume-body>div:not(:last-child) {
+    border-right: solid white 2px;
+}
+
+#resume-left-side {
+    padding-right: 40px;
+    max-width: 30%;
+}
+
+#resume-left-side>div,
+#resume-right-side>div {
+    border-top: solid white 2px;
+    padding: 20px 0px;
+}
+
+#resume-contacts table {
+    margin-left: 10px;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+#resume-contacts tr {
+    padding-bottom: 10px;
+}
+
+#resume-contacts tr>td:first-child {
+    text-align: center;
+}
+
+#resume-right-side {
+    padding-left: 40px;
+}
+
+#resume-aboutme span {
+    margin-left: 4ch;
+}
+
+#resume-proefficient ul {
+    columns: var(--column-count);
+    -webkit-columns: var(--column-count);
+    -moz-columns: var(--column-count);
+}

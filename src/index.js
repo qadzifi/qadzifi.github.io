@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import {RouterProvider} from 'react-router-dom';
 import GlobalRouter from './routes';
+import GlobalNavbar from './general/Navbar';
 
 ReactDOM.render(
     <React.StrictMode>
+      <GlobalNavbar />
       <RouterProvider router={GlobalRouter}/>
     </React.StrictMode>,
     document.getElementById('root'),
