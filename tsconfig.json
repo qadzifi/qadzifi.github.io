@@ -28,8 +28,9 @@
     "noEmit": true
   },
   "include": [
-    "src/**/*.js",
-    "declaration.d.ts"
+    "./src/**/*.js",
+    "./src/**/*.tsx",
+    "./src/react-app-env.d.ts",
   ],
   "exclude": [
     "node_modules",
