@@ -25,7 +25,8 @@
         {
             "files": [
                 "*.js",
-                "*.ts"
+                "*.ts",
+                "*.tsx"
             ],
             "rules": {
                 "require-jsdoc": "off",
