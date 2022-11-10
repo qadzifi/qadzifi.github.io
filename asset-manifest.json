@@ -1,27 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.d7e4fd2d.chunk.css",
-    "main.js": "/static/js/main.b1ac0255.chunk.js",
-    "main.js.map": "/static/js/main.b1ac0255.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.340824e7.js",
-    "runtime-main.js.map": "/static/js/runtime-main.340824e7.js.map",
-    "static/css/2.42d51ddf.chunk.css": "/static/css/2.42d51ddf.chunk.css",
-    "static/js/2.4e35d4d2.chunk.js": "/static/js/2.4e35d4d2.chunk.js",
-    "static/js/2.4e35d4d2.chunk.js.map": "/static/js/2.4e35d4d2.chunk.js.map",
-    "static/js/3.0b44ccdf.chunk.js": "/static/js/3.0b44ccdf.chunk.js",
-    "static/js/3.0b44ccdf.chunk.js.map": "/static/js/3.0b44ccdf.chunk.js.map",
+    "main.css": "/static/css/main.4c0e63ee.css",
+    "main.js": "/static/js/main.83a64453.js",
+    "static/js/496.42f4f734.chunk.js": "/static/js/496.42f4f734.chunk.js",
+    "static/media/Profile Picture.png": "/static/media/Profile Picture.1c562201a6b0a8cd7cda.png",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "static/css/2.42d51ddf.chunk.css.map": "/static/css/2.42d51ddf.chunk.css.map",
-    "static/css/main.d7e4fd2d.chunk.css.map": "/static/css/main.d7e4fd2d.chunk.css.map",
-    "static/js/2.4e35d4d2.chunk.js.LICENSE.txt": "/static/js/2.4e35d4d2.chunk.js.LICENSE.txt",
-    "static/media/Profile Picture.1c562201.png": "/static/media/Profile Picture.1c562201.png",
-    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg"
+    "main.4c0e63ee.css.map": "/static/css/main.4c0e63ee.css.map",
+    "main.83a64453.js.map": "/static/js/main.83a64453.js.map",
+    "496.42f4f734.chunk.js.map": "/static/js/496.42f4f734.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.340824e7.js",
-    "static/css/2.42d51ddf.chunk.css",
-    "static/js/2.4e35d4d2.chunk.js",
-    "static/css/main.d7e4fd2d.chunk.css",
-    "static/js/main.b1ac0255.chunk.js"
+    "static/css/main.4c0e63ee.css",
+    "static/js/main.83a64453.js"
   ]
 }
