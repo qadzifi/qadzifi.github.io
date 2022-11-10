@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Style.css';
 import profilePhoto from './resources/picture/Profile Picture.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -12,6 +12,10 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 
 export default function Resume(props:object) {
+  useEffect(() => {
+    document.title = 'Resume Page';
+  }, []);
+
   return (
     <div id='resume-root'>
       <div id='resume-header'>
